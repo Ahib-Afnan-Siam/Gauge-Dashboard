@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#gauge {
+  overflow: visible;
+}
+
+#month-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#month-buttons button {
+  margin: 5px 0;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.value-display {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+#status {
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.badge {
+  background-color: #6495ed;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.gauge-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.status-right {
+  font-weight: bold;
+  font-size: 14px;
+}

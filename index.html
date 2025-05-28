@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Final Gauge Chart</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div id="month-buttons"></div>
+
+    <div class="gauge-wrapper">
+      <div class="gauge-area">
+        <svg id="gauge" width="400" height="250"></svg>
+        <div class="value-display"><span id="value">0</span></div>
+      </div>
+      <div id="status" class="status-right">Status: <span class="badge">Select a month to view the status</span></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
