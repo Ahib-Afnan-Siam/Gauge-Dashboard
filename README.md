@@ -25,6 +25,7 @@ An interactive and responsive dashboard that visualizes real-time metrics using 
 ---
 
 ## 📁 Project Structure
+```text
 Gauge-Dashboard/
 ├── index.html                # Main web page that displays the gauge chart
 ├── style.css                 # CSS for layout and styling
@@ -32,6 +33,7 @@ Gauge-Dashboard/
 ├── data.json                 # Monthly data source for the gauge chart
 ├── Screenshot_20250528_225423.png   # Screenshot for README or preview purposes
 └── README.md                 # Project documentation
+```
 
 ---
 
@@ -45,7 +47,7 @@ To view the dashboard locally:
 2. **Navigate to the project directory**:
    ```bash
    cd Gauge-Dashboard
-3. **Open index.html in your preferred web browser.**
+3. **Open `index.html` in your preferred web browser.**
 
 ---
 📊 Usage
@@ -65,4 +67,4 @@ Ahib Afnan Siam
 
 📧 ahibafnan99@gmail.com
 
-🔗 GitHub Profile ->https://github.com/Ahib-Afnan-Siam
+🔗 [GitHub Profile](https://github.com/Ahib-Afnan-Siam)
